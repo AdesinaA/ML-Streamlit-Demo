@@ -10,7 +10,7 @@ st.title('Did the Passengers survive? :ship:')
 
 passengerid = st.text_input("Input Passenger ID", '2580') 
 pclass = st.selectbox("Choose class", [1,2,3])
-name  = st.text_input("Input Passenger Name", 'John Smith')
+name  = st.text_input("Input Passenger Name", 'Adesina Abdulrahman')
 sex = st.select_slider("Choose sex", ['male','female'])
 age = st.slider("Choose age",0,100)
 sibsp = st.slider("Choose siblings",0,10)
