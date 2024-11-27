@@ -8,7 +8,7 @@ import joblib
 model = joblib.load('xgbpipe.joblib')
 st.title('Did the Passengers survive? :ship:')
 
-passengerid = st.text_input("Input Passenger ID", '123456') 
+passengerid = st.text_input("Input Passenger ID", '2580') 
 pclass = st.selectbox("Choose class", [1,2,3])
 name  = st.text_input("Input Passenger Name", 'John Smith')
 sex = st.select_slider("Choose sex", ['male','female'])
