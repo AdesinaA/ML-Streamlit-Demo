@@ -1,1 +1,1 @@
-# ML-Streamlit-Demo
+# Built a machine learning model with xgboost and deployed on streamlit to predict people that survived the titanic. This is just a simple project to showcase machine learning model deployment on the web.
